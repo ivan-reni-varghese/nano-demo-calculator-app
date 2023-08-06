@@ -21,7 +21,7 @@ def subtract():
     n1=int(data["first"])
     n2=int(data["second"])
     result=n1-n2
-    return {"result":result},200,{"Content-Type":"application/json"}
+    return {"result":result},200
     
 
 if __name__ == '__main__':
